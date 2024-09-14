@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house" style="background-color: inherit;"></i>
+                    <a href="#" style="background-color: inherit;">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass" style="background-color: inherit;"></i>
+                    <a href="#" style="background-color: inherit;">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="library">
+                        <a href="#" style="background-color: inherit;">Your Library</a>
+                    </div>
+                    <div class="icons" >
+                        <i class="fa-solid fa-plus" style="background-color: inherit;"></i>
+                        <i class="fa-solid fa-arrow-right" style="background-color: inherit;"></i>
+                    </div>
+                </div>
+                <div class="lib-box" style="background-color: inherit;">
+                    <div class="box">
+                        <p class="box-p1" style="background-color: inherit;">Create your first playlist</p>
+                        <p class="box-p2" style="background-color: inherit;">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1" style="background-color:inherit;">Let's find some podcasts to follow</p>
+                        <p class="box-p2" style="background-color: inherit;">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right hide"></i>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide">Explore premium</button>
+                    <button class="badge" style="background-color: black; color: white;"><i class="fa-regular fa-circle-down" style="margin-right: 0.5rem;"></i> Install app</button>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <h2 style="background-color: inherit;margin-bottom: 0.75rem;">Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+
+            <h2 style="background-color: inherit;margin-bottom: 0.75rem;">Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img">
+                    <p class="card-title">Latest Hindi Melodies...</p>
+                    <p class="card-info">All Hindi melodies in one playlist</p>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img">
+                    <p class="card-title">90's Classics</p>
+                    <p class="card-info">Listen to Songs from the 90's</p>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-img">
+                    <p class="card-title">Leo Album</p>
+                    <p class="card-info">Thalapathy's latest movie songs</p>
+                </div>
+            </div>
+            <h2 style="background-color: inherit;margin-bottom: 0.75rem;">Featured charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-img">
+                    <p class="card-title">Leo Album</p>
+                    <p class="card-info">Thalapathy's latest movie songs</p>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs global</p>
+                    <p class="card-info">Listen to the most played songs around the globe</p>
+                </div>
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img">
+                    <p class="card-title">Latest Hindi Melodies...</p>
+                    <p class="card-info">Listen to Songs from the 90's</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="blinding lights.jpeg" class="album-image">
+                <div class="song-info">
+                    <p class="song-name" style="margin-left: 0.5rem;">Blinding lights</p>
+                    <p class="artish-name" style="font-size: 0.75rem; opacity: 0.7;margin-left: 0.5rem;">The Weeknd</p>
+                </div>
+                <div class="album-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-window-minimize"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icon">
+                    <img src="player_icon2.png" class="player-control-icon">
+                    <img src="player_icon3.png" class="player-control-icon" style="height: 2rem; opacity: 1;">
+                    <img  src="player_icon4.png" class="player-control-icon">
+                    <img src="player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls-icons">
+                    <i class="fa-solid fa-music"></i>
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-volume-low"></i>
+                    <input type="range" min="0" max="100" step="1" class="sound-bar">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
